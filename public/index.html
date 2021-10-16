@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="flex h-screen">
+    <template id="single-or-double-jokes">
+        <h1 class="font-4xl text-gray-900 text-center font-bold" id="type"></h1>
+        <p class="text-center text-gray-900" id="second"></p>
+    </template>
+    <div class="bg-gray-200 h-1/2 w-1/2 m-auto shadow-lg grid grid-row grid-rows-3">
+        <h1 class="text-5xl font-bold text-center">JOKES</h1>
+        <div id="joke-section"></div>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-20 m-auto" id="btn">
+            Button
+        </button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
